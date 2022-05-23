@@ -1,11 +1,11 @@
 package Models;
 
 public class University {
-    String id;
-    String fullName;
-    String shortNam;
-    int yearOfFoundation;
-    StudyProfile mainProfile;
+    private String id;
+    private String fullName;
+    private String shortNam;
+    private int yearOfFoundation;
+    private StudyProfile mainProfile;
 
     public University() {
     }
