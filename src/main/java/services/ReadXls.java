@@ -1,5 +1,4 @@
 package services;
-
 import models.Student;
 import models.StudyProfile;
 import models.University;
@@ -15,7 +14,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import static org.apache.poi.ss.usermodel.CellType.NUMERIC;
-
 public class ReadXls {
 
     private static String filePath = "src/main/resources/universityInfo.xlsx";
