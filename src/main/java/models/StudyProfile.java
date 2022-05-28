@@ -1,10 +1,11 @@
-package Models;
+package models;
 
 public enum StudyProfile {
-    MEDICINE("медицина")
-    , ECONOMIC("экономика")
-    , PHILOSOPHY("философия")
-    , IT( "ИТ");
+    PHYSICS("физика")
+    , ECONOMIC("медицина")
+    , LINGUISTICS("лингвистика")
+    , MEDICINE("медицина")
+    , DEFAULT( "по умолчанию");
 
     private String profileName;
 

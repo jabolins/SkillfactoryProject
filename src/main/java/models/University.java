@@ -3,17 +3,17 @@ package models;
 public class University {
     private String id;
     private String fullName;
-    private String shortNam;
+    private String shortName;
     private int yearOfFoundation;
     private StudyProfile mainProfile;
 
     public University() {
     }
 
-    public University(String id, String fullName, String shortNam, int yearOfFoundation, StudyProfile mainProfile) {
+    public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;
         this.fullName = fullName;
-        this.shortNam = shortNam;
+        this.shortName = shortName;
         this.yearOfFoundation = yearOfFoundation;
         this.mainProfile = mainProfile;
     }
@@ -36,12 +36,12 @@ public class University {
         return this;
     }
 
-    public String getShortNam() {
-        return shortNam;
+    public String getShortName() {
+        return shortName;
     }
 
-    public University setShortNam(String shortNam) {
-        this.shortNam = shortNam;
+    public University setShortName(String shortName) {
+        this.shortName = shortName;
         return this;
     }
 
@@ -68,7 +68,7 @@ public class University {
         return "University{" +
                 "id='" + id + '\'' +
                 ", fullName='" + fullName + '\'' +
-                ", shortNam='" + shortNam + '\'' +
+                ", shortNam='" + shortName + '\'' +
                 ", yearOfFoundation=" + yearOfFoundation +
                 ", mainProfile=" + mainProfile +
                 '}';
